@@ -288,7 +288,7 @@ client.on('ready', () => {
 client.user.setGame(`!~[ Čømmäñđš l ^^help]~!`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
-const adminprefix = "*";
+const adminprefix = "^^";
 const devs = ['534808591731785779', 'none'];
  
 
