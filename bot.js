@@ -339,7 +339,7 @@ client.on('message' , message => {
  .setDescription("Add me" + `
  **
 رابط البوت |
-https://discordapp.com/api/oauth2/authorize?client_id=536143171588063242&permissions=8&scope=bot **
+https://discordapp.com/api/oauth2/authorize?client_id=536591158076506133&permissions=0&scope=bot**
 `);
   message.author.sendEmbed(embed);
    }
