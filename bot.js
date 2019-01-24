@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "^^";
+const prefix = "^^1";
 /////////////////////////
 ////////////////////////
 ////////////////////////
@@ -252,7 +252,7 @@ function play(guild, song) {
 
  client.on("message", message => {
   var prefix = "*";
-if (message.content === "^^help") {
+if (message.content === "^^1help") {
    message.channel.send('** تم ارسالك في الخاص :mailbox_with_mail:**');
 const embed = new Discord.RichEmbed()
     .setDescription(`
@@ -260,18 +260,18 @@ const embed = new Discord.RichEmbed()
 **يعمل 24 ساعه بدون توقف الا في حالة صيانه**
 **وسرعة البوت سريعه جدا KiLLerGamez Communty ℘ علي خادم**   
 [❖═══════ اوامر الميوزك 🎧  ═══════❖]
-:arrow_right: ** ^^play ~ لتشغيل اغنية **
-:arrow_right: ** ^^join ~ لدخو رومك صوتي  **
-:arrow_right: ** ^^disconnect ~ خروج من الروم الصوتي **
-:arrow_right: ** ^^skip ~  لتخطي الاغنية **
-:arrow_right: ** ^^pause  ~ ايقاف الاغنية مؤقتان** 
-:arrow_right: ** ^^resume  ~  تكملة الاغنية ** 
-:arrow_right: ** ^^queue  ~  اظهار قائمة التشغيل ** 
-:arrow_right: ** ^^np  ~ اظهار الاغنية اللي انت مشغلها حاليا** 
+:arrow_right: ** ^^1play ~ لتشغيل اغنية **
+:arrow_right: ** ^^1join ~ لدخو رومك صوتي  **
+:arrow_right: ** ^^1disconnect ~ خروج من الروم الصوتي **
+:arrow_right: ** ^^1skip ~  لتخطي الاغنية **
+:arrow_right: ** ^^1pause  ~ ايقاف الاغنية مؤقتان** 
+:arrow_right: ** ^^1resume  ~  تكملة الاغنية ** 
+:arrow_right: ** ^^1queue  ~  اظهار قائمة التشغيل ** 
+:arrow_right: ** ^^1np  ~ اظهار الاغنية اللي انت مشغلها حاليا** 
 [❖═══════ اوامر اخري═══════❖]
-:arrow_right: ** ^^inv ~ لارسال رابط دعوه البوت **
-:arrow_right: ** ^^bot ~ لعرض معلومات عن بوت **
-:arrow_right: ** ^^suppport ~ لارسال رابط سيرفر خادم بوت **
+:arrow_right: ** ^^1inv ~ لارسال رابط دعوه البوت **
+:arrow_right: ** ^^1bot ~ لعرض معلومات عن بوت **
+:arrow_right: ** ^^1suppport ~ لارسال رابط سيرفر خادم بوت **
 `)
  message.author.sendEmbed(embed)
  
@@ -285,7 +285,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`!~[ Čømmäñđš l ^^help]~!`,"http://twitch.tv/Death Shop")
+client.user.setGame(`!~[ Čømmäñđš l ^^1help]~!`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 const adminprefix = "^^";
@@ -330,7 +330,7 @@ client.on('message', msg => {
 });
 client.on('message' , message => {
  
-    if (message.content === "^^inv") {
+    if (message.content === "^^1inv") {
         message.reply(`تم ارساله الرابط في الخاص`)
         if(!message.channel.guild) return message.reply('**الآمر فقط في السيرفرات**');
      const embed = new Discord.RichEmbed()
@@ -345,7 +345,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=536591158076506133&permiss
    }
 });
 client.on('message', message => {
-    if (message.content === ('^^bot')) {
+    if (message.content === ('^^1bot')) {
     message.channel.send({
         embed: new Discord.RichEmbed()
             .setAuthor(client.user.username,client.user.avatarURL)
