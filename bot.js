@@ -258,7 +258,7 @@ const embed = new Discord.RichEmbed()
     .setDescription(`
    [❖═══════ مميزات البوت :robot: ═══════❖]
 **يعمل 24 ساعه بدون توقف الا في حالة صيانه**
-**وسرعة البوت سريعه جدا KiLLerGamez Communty ℘ علي خادم**   
+**وسرعة البوت سريعه جدا BLITZ HOST 💔🌷V6 علي خادم**   
 [❖═══════ اوامر الميوزك 🎧  ═══════❖]
 :arrow_right: ** ^^1play ~ لتشغيل اغنية **
 :arrow_right: ** ^^1join ~ لدخو رومك صوتي  **
@@ -285,7 +285,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`!~[ Čømmäñđš l ^^1help]~!`,"http://twitch.tv/Death Shop")
+client.user.setGame(`!~[ Čømmäñđš l ^^1play ]~!`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 const adminprefix = "^^";
